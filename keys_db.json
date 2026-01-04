@@ -1,20 +1,58 @@
 {
-  "NOVAX-PRO-ABCD1234EFGH5678": {
-    "type": "pro",
-    "expires_at": "2028-12-31T23:59:59",
-    "owner": "Khách hàng A",
-    "created_at": "2024-01-01T00:00:00",
-    "note": "Khách VIP",
-    "total_tasks": 0,
-    "active_tasks": 0
+  "NOVAX-ADMIN-7A3B9C1D2E4F5A6B7C8D9E0F": {
+    "type": "admin",
+    "expires_at": "2025-12-31T23:59:59",
+    "owner": "Tiến Đạt",
+    "created_at": "2024-01-04T10:30:00",
+    "note": "Default Admin Key - Toàn quyền hệ thống",
+    "total_tasks": 156,
+    "active_tasks": 3,
+    "status": "active",
+    "max_tasks": 9999,
+    "last_used": "2024-01-04T15:45:30",
+    "ip_whitelist": [],
+    "features": ["all"]
   },
-  "NOVAX-VIP-1234ABCD5678EFGH": {
+  "NOVAX-PRO-8B4C2D3E5F6A7B8C9D0E1F2A": {
+    "type": "pro",
+    "expires_at": "2024-06-30T23:59:59",
+    "owner": "Đại lý A",
+    "created_at": "2024-01-04T11:00:00",
+    "note": "Key PRO cho đại lý chính thức",
+    "total_tasks": 47,
+    "active_tasks": 2,
+    "status": "active",
+    "max_tasks": 500,
+    "last_used": "2024-01-04T14:20:15",
+    "ip_whitelist": ["192.168.1.100", "113.161.78.45"],
+    "features": ["vip_prefix", "vip_emoji", "reo_name", "multi_thread"]
+  },
+  "NOVAX-VIP-9C5D3E4F6A7B8C9D0E1F2A3B": {
     "type": "vip",
-    "expires_at": "2029-06-30T23:59:59",
-    "owner": "Khách hàng B",
-    "created_at": "2024-01-01T00:00:00",
-    "note": "Khách thường",
-    "total_tasks": 0,
-    "active_tasks": 0
+    "expires_at": "2024-04-15T23:59:59",
+    "owner": "Khách Hàng VIP",
+    "created_at": "2024-01-04T12:00:00",
+    "note": "Gói VIP 3 tháng - Ưu đãi đặc biệt",
+    "total_tasks": 12,
+    "active_tasks": 1,
+    "status": "active",
+    "max_tasks": 100,
+    "last_used": "2024-01-04T13:45:22",
+    "ip_whitelist": ["113.161.78.45"],
+    "features": ["vip_prefix", "vip_emoji", "reo_name"]
+  },
+  "NOVAX-6D4E5F7A8B9C0D1E2F3A4B5C": {
+    "type": "normal",
+    "expires_at": "2024-02-28T23:59:59",
+    "owner": "Người dùng mới",
+    "created_at": "2024-01-04T13:00:00",
+    "note": "Key dùng thử 30 ngày",
+    "total_tasks": 2,
+    "active_tasks": 0,
+    "status": "active",
+    "max_tasks": 10,
+    "last_used": "2024-01-04T13:30:10",
+    "ip_whitelist": [],
+    "features": ["basic"]
   }
 }
